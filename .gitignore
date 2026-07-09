@@ -1,0 +1,11 @@
+# Your private credentials — never commit
+arduino_secrets.h
+
+# Arduino build output
+/build/
+*.bin
+*.elf
+*.map
+
+# macOS
+.DS_Store
