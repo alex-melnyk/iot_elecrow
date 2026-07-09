@@ -8,6 +8,12 @@ Hardware: [Elecrow CrowPanel 1.28inch HMI ESP32 Rotary Display](https://www.elec
 (ESP32-S3, 8 MB PSRAM / 16 MB flash, GC9A01 240×240 round IPS, CST816D touch,
 rotary crown + push button, 5× WS2812 RGB LEDs).
 
+## Preview
+
+[`preview/hud_preview.html`](preview/hud_preview.html) is a browser simulator of the
+panel — open it locally to explore all five pages and the crown / knob / touch controls
+without flashing hardware.
+
 ## Pages & controls
 
 Four telemetry pages plus a settings page, all navigable from the panel:
